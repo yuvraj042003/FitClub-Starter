@@ -23,3 +23,31 @@ color: white;
     color: orange;
     
 }
+@media screen and (max-width:500px) {
+    .Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top:1rem ;
+    width: 5rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.header-menu{
+list-style: none;
+gap: 3rem;
+display: flex;
+color: white;
+}
+.header-menu > li {
+    cursor: pointer;
+    
+}
+.header-menu > li:hover {
+    cursor: pointer;
+    color: orange;
+    
+}
+}
